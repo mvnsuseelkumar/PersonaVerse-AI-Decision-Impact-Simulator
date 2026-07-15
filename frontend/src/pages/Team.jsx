@@ -1,8 +1,8 @@
 const TEAM = [
   {
     name: "Sussel Kumar",
-    role: "Backend & Research Lead",
-    bio: "Develops the backend, manages the database, and leads research, system architecture.",
+    role: "AI Systems & Backend Architecture Lead",
+    bio: "Builds backend systems, manages databases, and leads AI architecture and research. Designs multi-agent workflows enabling intelligent analysis, debate, and collaboration.",
     initials: "SK",
     color: "from-brand-500 to-purple-500",
   },
@@ -22,8 +22,8 @@ const TEAM = [
   },
   {
     name: "Pesala Ananya",
-    role: "AI Debate System Engineer",
-    bio: "Develops the multi-agent AI workflow, enabling personas to analyze, debate, and generate insights.",
+    role: "Landing Page Developer",
+    bio: "Develops responsive and engaging landing pages that provide a smooth user experience.",
     initials: "PA",
     color: "from-pink-500 to-orange-500",
   },
@@ -178,7 +178,9 @@ export default function Team() {
                 >
                   <span className="text-3xl">{icon}</span>
                   <div>
-                    <p className="text-sm font-semibold text-text-primary">{title}</p>
+                    <p className="text-sm font-semibold text-text-primary">
+                      {title}
+                    </p>
                     <p className="text-sm text-text-secondary">{detail}</p>
                   </div>
                 </a>
